@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            // "program": "/afs/cern.ch/user/d/dbrzhech/work/ServiceWork/RadDamage/pixelMonitor/CMSSW_9_4_0_pre1/src/HVBiasScans/run_biasscan_fit_modx_1f_fullscan.py",
+            "program": "/afs/cern.ch/user/d/dbrzhech/work/ServiceWork/RadDamage/pixelMonitor/CMSSW_9_4_0_pre1/src/HVBiasScans/run_biasscan_fit_modx_1f_miniscan.py",
+            "console": "integratedTerminal",
+            "args": ["-b"]
+        }
+    ]
+}
